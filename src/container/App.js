@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import "./App.css";
 
+import Login from "../components/login/login";
+import Register from "../components/register/register";
+
 class App extends Component {
   render() {
     return (
