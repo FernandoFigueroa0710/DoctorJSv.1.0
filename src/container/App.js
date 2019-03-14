@@ -3,16 +3,15 @@ import "./App.css";
 
 // import Login from "../components/login/Login";
 // import Register from "../components/register/Register";
+import LandingPage from "../components/landingPage/LandingPage";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          Welcome to Doctor JS v1.0 Powered by react
-          {/* <Login />
+        {/* <Login />
           <Register /> */}
-        </header>
+        <LandingPage />
       </div>
     );
   }
