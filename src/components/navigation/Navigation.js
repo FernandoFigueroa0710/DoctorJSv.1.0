@@ -4,24 +4,23 @@ class LandingPage extends Component {
   render() {
     return (
       <div className="landing-page">
-        <nav className="navbar navbar-expand-lg navbar-light ">
+        <nav className="navbar navbar-expand-lg navbar-light">
+          <a className="navbar-brand" href="#">
+            Welcome to DoctorJs v.1.0 powered by React!
+          </a>
           <button
             className="navbar-toggler"
             type="button"
             data-toggle="collapse"
-            data-target="#navbarTogglerDemo03"
-            aria-controls="navbarTogglerDemo03"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
             <span className="navbar-toggler-icon" />
           </button>
-          <a className="navbar-brand" href="#">
-            Welcome to Doctor JS v1.0 Powered by react
-          </a>
-
-          <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
-            <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
+          <div className="collapse navbar-collapse" id="navbarNav">
+            <ul className="navbar-nav">
               <li className="nav-item active">
                 <a className="nav-link" href="#">
                   Home <span className="sr-only">(current)</span>
@@ -29,7 +28,12 @@ class LandingPage extends Component {
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  Link
+                  Features
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">
+                  Pricing
                 </a>
               </li>
               <li className="nav-item">
@@ -43,20 +47,6 @@ class LandingPage extends Component {
                 </a>
               </li>
             </ul>
-            <form className="form-inline my-2 my-lg-0">
-              <input
-                className="form-control mr-sm-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button
-                className="btn btn-outline-success my-2 my-sm-0"
-                type="submit"
-              >
-                Search
-              </button>
-            </form>
           </div>
         </nav>
       </div>
