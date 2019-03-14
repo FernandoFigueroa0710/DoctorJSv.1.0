@@ -5,7 +5,7 @@ class LandingPage extends Component {
     return (
       <div className="landing-page">
         <nav className="navbar navbar-expand-lg navbar-light">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="/">
             Welcome to DoctorJs v.1.0 powered by React!
           </a>
           <button
@@ -22,28 +22,37 @@ class LandingPage extends Component {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item active">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/">
                   Home <span className="sr-only">(current)</span>
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Features
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Pricing
+                <a
+                  className="nav-link"
+                  href="../components/bloodpressure/BloodPressure.js"
+                >
+                  Blood Pressure
                 </a>
               </li>
               <li className="nav-item">
                 <a
-                  className="nav-link disabled"
-                  href="#"
-                  tabIndex="-1"
-                  aria-disabled="true"
+                  className="nav-link"
+                  href="../components/bloodglucose/BloodGlucose.js"
                 >
-                  Disabled
+                  Blood Glucose
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="nav-link"
+                  href="../components/carbsintake/CarbsIntake.js"
+                >
+                  Carbs Info
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">
+                  Logout
                 </a>
               </li>
             </ul>
