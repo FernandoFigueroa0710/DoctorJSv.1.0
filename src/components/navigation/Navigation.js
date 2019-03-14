@@ -4,7 +4,7 @@ class LandingPage extends Component {
   render() {
     return (
       <div className="landing-page">
-        <nav className="navbar navbar-expand-lg navbar-light">
+        <nav className="navbar navbar-expand-lg navbar-light ">
           <button
             className="navbar-toggler"
             type="button"
