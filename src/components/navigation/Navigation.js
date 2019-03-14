@@ -3,8 +3,8 @@ import React, { Component } from "react";
 class LandingPage extends Component {
   render() {
     return (
-      <div>
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <div className="landing-page">
+        <nav className="navbar navbar-expand-lg navbar-light">
           <button
             className="navbar-toggler"
             type="button"
