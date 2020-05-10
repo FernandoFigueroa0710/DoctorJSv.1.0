@@ -5,9 +5,6 @@ class LandingPage extends Component {
     return (
       <div className="landing-page">
         <nav className="navbar navbar-expand-lg navbar-light">
-          <a className="navbar-brand" href="/">
-            Welcome to DoctorJs v.1.0 powered by React!
-          </a>
           <button
             className="navbar-toggler"
             type="button"
@@ -51,7 +48,7 @@ class LandingPage extends Component {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="../components/logout/Logout.js">
                   Logout
                 </a>
               </li>
